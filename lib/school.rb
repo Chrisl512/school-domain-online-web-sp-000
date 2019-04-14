@@ -14,7 +14,7 @@ def add_student(name, grade)
 end
 
 def grade(grade)
-  roster.each do |key, value|
+  roster.detect do |key, value|
   if key == grade
      value
 end
