@@ -17,7 +17,7 @@ def grade(grade)
   roster.each do |key, value|
   if key == grade
      value
-
+end
 end
 
 end
