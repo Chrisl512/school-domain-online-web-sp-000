@@ -15,9 +15,10 @@ end
 
 def grade(grade)
   roster.detect do |key, value|
-  if key == grade
-     return value
+    if key == grade
+       return value
+    end
+  end
 end
-end
-end
+
 end
