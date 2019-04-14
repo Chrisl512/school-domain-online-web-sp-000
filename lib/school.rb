@@ -16,7 +16,7 @@ end
 def grade(grade)
   roster.detect do |key, value|
   if key == grade
-     value
+     roster[value]
 end
 end
 end
