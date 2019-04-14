@@ -14,7 +14,8 @@ def add_student(name, grade)
 end
 
 def grade(grade)
-  num = []
+  roster.each do |key, value|
+  if grade == 
   num << roster[grade]
   num
 end
