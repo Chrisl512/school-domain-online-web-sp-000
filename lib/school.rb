@@ -21,7 +21,10 @@ def grade(grade)
   end
 end
 
-def sort
+def sort(roster)
+  roster[grade].collect do |array|
+     new_array = array.sort
+  end
 end
 
 end
