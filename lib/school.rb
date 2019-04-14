@@ -15,7 +15,7 @@ end
 
 def grade(grade)
   num = []
-  num.chomp << roster[grade]
+  num << roster[grade]
 end
 
 end
