@@ -23,8 +23,8 @@ end
 
 def sort
   sorted_hash = {}
-  roster[grade].collect do |array|
-     new_array = array.sort
+  roster[grade].collect do |key, value|
+     new_array[key] = value.sort
   end
 end
 
