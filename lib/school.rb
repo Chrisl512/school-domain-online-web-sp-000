@@ -5,7 +5,7 @@ class School
   attr_reader :roster
 
 def initialize(roster)
-  @roster = Hash.new([])
+  @roster = {}]
   #@roster = roster
 end
 
