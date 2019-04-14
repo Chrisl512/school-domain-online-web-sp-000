@@ -16,7 +16,7 @@ end
 def grade(grade)
   num = []
   num << roster[grade]
-  num.delete('[]')
+  num
 end
 
 end
