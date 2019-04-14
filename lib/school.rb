@@ -21,6 +21,6 @@ def grade(grade)
   end
 end
 
-def 
+def
 
 end
