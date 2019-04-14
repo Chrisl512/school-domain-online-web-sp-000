@@ -21,7 +21,7 @@ def grade(grade)
   end
 end
 
-def sort(roster)
+def sort
   #roster = {}
   binding.pry
   roster[grade].collect do |array|
