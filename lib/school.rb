@@ -23,7 +23,7 @@ end
 
 def sort
   sorted_hash = {}
-    roster.collect do |key, value|
+    roster.each do |key, value|
       sorted_hash[key] = value.sort
     end
 end
