@@ -15,7 +15,8 @@ end
 
 def grade(grade)
   num = []
-  num << grade
+  num << roster[grade]
+  num.string
 end
 
 end
