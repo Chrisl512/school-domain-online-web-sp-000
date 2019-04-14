@@ -24,7 +24,7 @@ end
 def sort
   sorted_hash = {}
   roster[grade].collect do |key, value|
-     new_array[key] = value.sort
+     sorted_hash[key] = value.sort
   end
 end
 
