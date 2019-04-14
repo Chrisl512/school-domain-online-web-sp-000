@@ -26,7 +26,7 @@ def sort
     roster.collect do |key, value|
       sorted_hash[key] = value.sort
     end
-    sorted_hash
+  sorted_hash
 end
 
 end
