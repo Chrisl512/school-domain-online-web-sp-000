@@ -23,6 +23,7 @@ end
 
 def sort(roster)
   #roster = {}
+  binding.pry
   roster[grade].collect do |array|
      new_array = array.sort
   end
